@@ -23,8 +23,7 @@ test.each([
   ['Маг', 90, 'healthy'],
   ['Лучник', 30, 'wounded'],
   ['Всадник', 10, 'critical'],
-])
-('testing status health %s with %i - %s', (nic, quantity, status) => {
+])('testing status health %s with %i - %s', (nic, quantity, status) => {
   const result = heroHealth({ name: nic, health: quantity });
   expect(result).toBe(status);
-});
+})
