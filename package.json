@@ -1,0 +1,32 @@
+{
+  "name": "js_ac_hw_4_1_clearfunction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ART20230129/js_ac_hw_4_1_clearFunction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ART20230129/js_ac_hw_4_1_clearFunction/issues"
+  },
+  "homepage": "https://github.com/ART20230129/js_ac_hw_4_1_clearFunction#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.7.0",
+    "jest-babel": "^1.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.36.0"
+  }
+}
