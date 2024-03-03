@@ -1,4 +1,4 @@
-export function heroHealth(obj) {
+export default function heroHealth(obj) {
   if (obj.health > 50) {
         return 'healthy';
   };
