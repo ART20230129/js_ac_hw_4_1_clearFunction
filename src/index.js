@@ -6,4 +6,4 @@ export default function heroHealth(obj) {
     return 'wounded';
   }
   return 'critical';
-};
+}
